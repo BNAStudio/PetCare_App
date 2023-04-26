@@ -6,69 +6,83 @@
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
 
-### General Info
+<hr>
 
----
+## General Info
 
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it.
+University project - Politecnico gran colombiano
+<b>Current status:</b> in progress...
 
-### Screenshot
+<hr>
 
-![Image text](URL)
+## Screenshot
+
+![Home](./src/assets/Home.png)
 
 ## Technologies
 
----
+- [react](https://es.reactjs.org/): version 18.2.0
+  
+## libraries
 
-A list of technologies used within the project:
+- [commitizen](https://github.com/commitizen/cz-cli): version 4.2.5
+- [esLint](https://eslint.org/): version 8.24.0
+- [prettier](https://prettier.io/): version 2.7.1
 
-- [Technologie name](https://example.com): Version 12.3
-- [Technologie name](https://example.com): Version 2.34
-- [Library name](https://example.com): Version 1234
+
+<hr>
 
 ## Installation
 
----
+yarn install
+yarn start
+<hr>
 
-A little intro about the installation.
+
+
+Create an `./App` folder for the project, navigate to it and run: (You can use yarn or npm)
 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/BNAStudio/PetCare_App
+$ cd ./PetCare_App
+$ yarn install
+$ yarn run dev
 ```
+<hr>
 
-Side information: To use the application in a special environment use `lorem ipsum` to start
+### Side information:
 
-## Collaboration
+To handle dependencies you can use `yarn` or `npm`
+<hr>
 
----
+## Collaborators
 
-Give instructions on how to collaborate with your project.
+- Daniel M.
+<hr>
 
-> Maybe you want to write a quote in this part.
-> It should go over several rows?
-> This is how you do it.
+# Instructions on how to collaborate with the project:
 
-## FAQs
+## Instructions to get started:
 
----
+1. Fork the repository and clone it on your local machine.
+2. Install project dependencies using the command `yarn install`.
+3. To run the eslint linter, use the command `yarn lint`.
+4. To format code using prettier, use the command `yarn format`.
+5. Make sure to run the yarn cz command after running `git add` to run the commit generator.
+6. Remember, to compile the project in <b>development mode</b>, use the command `yarn start`.
 
-A list of frequently asked questions
+<i>Please note that the commit messages should follow the **[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)** standard.</i>
+<hr>
 
-1. **This is a question in bold**
-   Answer of the first question with _italic words_.
-2. **Second question in bold**
-   To answer this question we use an unordered list:
+## Instrucciones para empezar:
 
-- First point
-- Second Point
-- Third point
+1. Realice un fork del repositorio y clónelo en su máquina local.
+2. Instale las dependencias del proyecto utilizando el comando `yarn install`.
+3. Para correr el linter de eslint utilice el comando `yarn lint`.
+4. Para formatear el código utilizando prettier utilice el comando `yarn format`.
+   Asegurese de ejecutar el comando `yarn cz`, luego del comando `git add`, para correr el generador de commits.
+5. Recuerda que para compilar el proyecto en desarrollo debe utilizar el comando `yarn start`.
 
-3. **Third question in bold**
-   Answer of the third question with _italic words_.
-4. **Fourth question in bold**
-   | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-   |:--------------|:-------------:|--------------:|
-   | text-align left | text-align center | text-align right |
+<i>Por favor, tenga en cuenta que los mensajes de commit deben seguir el estándar <b>Conventional Commits</b>.</i>
+
+<i>Por favor, tenga en cuenta que los mensajes de commit deben seguir el estándar **[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)**.</i>
